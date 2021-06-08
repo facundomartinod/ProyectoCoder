@@ -1,0 +1,29 @@
+// GENERALES //
+// body{
+
+.title {
+    color:rgb(75, 141, 8);
+    font-size:30px;
+    text-align:center;
+    margin: 10px;
+    padding: 0px;
+}
+p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+.border{
+    border-style: solid 1px;
+}
+a {
+    text-decoration: none;
+    padding: 4px;
+}
+.fondoTexto{
+    background-color: beige;
+}
+

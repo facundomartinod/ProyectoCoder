@@ -1,0 +1,50 @@
+// Clases de imagenes //
+/* imagenes */
+img {
+    max-width: 100%;
+}
+.centrar-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenLogo {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 0px;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.imgCarousel {
+    border: 2px solid;    
+}
+
+.imgCarousel img {
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (min-width: 768px) {
+    .imgCarousel img {
+        width: 600px;
+        height: 600px;
+    }
+}
+.containerImagenes {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+#carouselExampleControls {
+    width: 400px;
+    margin: 60px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #carouselExampleControls {
+        width: 600px;
+    }
+}

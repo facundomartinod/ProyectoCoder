@@ -1,0 +1,34 @@
+/* sections */
+header{
+    grid-area: header;
+}
+#informacion{
+    grid-area: informacion;
+}
+#cliente{
+    grid-area: cliente;
+}
+section{
+    margin: 10px;
+    display: inline-block;
+     
+}
+section article{
+    background-color: beige;
+    padding: 10px;
+    margin: 0px;
+    border-style:groove;
+    
+}
+aside{
+    grid-area: aside;
+    background-color: beige;
+    border-style: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: middle;
+}
+nav{
+    grid-area: nav;
+}
