@@ -1,7 +1,7 @@
 // TABLAS LISTAS//
 ul{
     list-style: none;
-    background:white;
+    text-align: center;
     padding: 10px;
     margin: 10px;
 }
@@ -13,12 +13,14 @@ li {
     color: black;
  }
  
- ul li a:hover{
-     color:white;
-     background-color:green;
+ ul li a:link{
+     font-weight: bold;
  }
  table {
     border: 3px solid;
+    width: 10vh;
+    height: 100vh;
+    border: groove;
 }
 th {
     background-color: whitesmoke;

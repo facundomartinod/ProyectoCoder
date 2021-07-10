@@ -1,7 +1,8 @@
 // Footer //
 footer{
     color:black;
-    background-color: beige;
+    background-color: linear-gradient(90deg, rgba(6,10,35,1) 0%, rgba(69,171,14,1) 0%, rgba(28,70,11,1) 100%, rgba(0,255,6,1) 100%, rgba(0,36,10,1) 100%, rgba(66,173,25,1) 100%);
+    padding: 0px;
     grid-area: footer;
     
 }
@@ -11,3 +12,4 @@ footer p{
 footer a{
     color:black; 
 }
+
